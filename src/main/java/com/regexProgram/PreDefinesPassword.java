@@ -12,7 +12,7 @@ public class PreDefinesPassword {
 		String password = scan.nextLine();
 		System.out.println("Password : "+password);
 		
-		if(Pattern.matches("^[A-Z]{1}[A-Za-z0-9]{7}",password)) {
+		if(Pattern.matches("^[A-Z]{1}[a-z0-9]{7}",password)) {
 			
 			System.out.println("Password is Valid");
 		}
